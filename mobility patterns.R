@@ -53,14 +53,15 @@ Propfor3<- function(P) {
   P<-as.data.frame(P)
 }
 ageEstProp<-Propfor3(ageEst2)[c(11)]
-colnames(ageEstProp)[c(1)]<-"Age:20-29"
+colnames(ageEstProp)[c(1)]<-"Age20s"
 edEstProp<-Propfor3(edEst2)[c(11)]
-colnames(edEstProp)[c(1)]<-"Bachelors or Above"
+colnames(edEstProp)[c(1)]<-"BAplus"
 
 cityComparative<-cbind(marEstProp,tenEstProp,genderEstProp,incomeEstProp,ageEstProp,edEstProp)
 
-cityComparative$place<-gsub("city","",cityComparative$place)
-cityComparative$place<-gsub("\\ ,.*","",cityComparative$place)
-cityComparative$place<-ifelse(grepl("Nashville",cityComparative$place),"Nashville",cityComparative$place)
+cityComparative$City<-gsub("city","",cityComparative$place)
+cityComparative$City<-gsub("\\ ,.*","",cityComparative$City)
+cityComparative$City<-ifelse(grepl("Nashville",cityComparative$City),"Nashville",cityComparative$City)
+cityComparative<-cityComparative[c(2:8)]
 
 write.csv(cityComparative,"/Users/katerabinowitz/Documents/DataLensDC/DC-Demographics/cityMobilityStats.csv",row.names=FALSE)
