@@ -32,7 +32,7 @@ genderEst2<-subsetCol(genderEst)[c(1,2,4,5,7,8,10)]
 Propfor2<- function(P,varname) {
 colnames(P)<-c("place","dCountyTotal","dCountyStat","dStateTotal","dStateStat","dAbroadTotal","dAbroadStat")
 attach(P)
-P$Prop<-(dCountyStat+dStateStat+dAbroadStat)/(dCountyTotal+dStateTotal+dAbroadTotal)*100
+P$Prop<-round((dCountyStat+dStateStat+dAbroadStat)/(dCountyTotal+dStateTotal+dAbroadTotal)*100,2)
 P<-as.data.frame(P)
 }
 
@@ -49,7 +49,8 @@ Propfor3<- function(P) {
   colnames(P)<-c("place","dCountyTotal","dCountyStat1","dCountyStat2","dStateTotal","dStateStat1","dStateStat2",
                  "dAbroadTotal","dAbroadStat1","dAbroadStat2")
   attach(P)
-  P$Prop<-((dCountyStat1+dCountyStat1+dStateStat1+dStateStat2+dAbroadStat1+dAbroadStat1)/(dCountyTotal+dStateTotal+dAbroadTotal))*100
+  P$Prop<-round(((dCountyStat1+dCountyStat1+dStateStat1+dStateStat2+dAbroadStat1+dAbroadStat1)
+                 /(dCountyTotal+dStateTotal+dAbroadTotal))*100,2)
   P<-as.data.frame(P)
 }
 ageEstProp<-Propfor3(ageEst2)[c(11)]
