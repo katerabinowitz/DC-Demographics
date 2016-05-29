@@ -1,0 +1,365 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.468182,33.790034 ]
+    },
+    "properties": {
+    "FIELD1":1,
+    "city":"Atlanta",
+    "Migration":26.6363510419132,
+    "wmDistance":321,
+    "Migrant2Pop":8.29,
+    "center":"33.790034,-84.468182"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.69127,30.239513 ]
+    },
+    "properties": {
+    "FIELD1":2,
+    "city":"Austin",
+    "Migration":36.3366488736993,
+    "wmDistance":492,
+    "Migrant2Pop":7.38,
+    "center":"30.239513,-97.69127"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.020173,42.33196 ]
+    },
+    "properties": {
+    "FIELD1":3,
+    "city":"Boston",
+    "Migration":35.3547915730357,
+    "wmDistance":429,
+    "Migrant2Pop":8.23,
+    "center":"42.33196,-71.020173"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.833832,35.246862 ]
+    },
+    "properties": {
+    "FIELD1":4,
+    "city":"Charlotte",
+    "Migration":23.8077377840994,
+    "wmDistance":384,
+    "Migrant2Pop":6.2,
+    "center":"35.246862,-80.833832"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.645455,41.894294 ]
+    },
+    "properties": {
+    "FIELD1":5,
+    "city":"Chicago",
+    "Migration":11.9260383008285,
+    "wmDistance":460,
+    "Migrant2Pop":2.59,
+    "center":"41.894294,-87.645455"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.008258,39.969447 ]
+    },
+    "properties": {
+    "FIELD1":6,
+    "city":"Columbus",
+    "Migration":17.1802876408614,
+    "wmDistance":322,
+    "Migrant2Pop":5.34,
+    "center":"39.969447,-83.008258"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.778424,32.766987 ]
+    },
+    "properties": {
+    "FIELD1":7,
+    "city":"Dallas",
+    "Migration":17.3270620006062,
+    "wmDistance":389,
+    "Migrant2Pop":4.45,
+    "center":"32.766987,-96.778424"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.880625,39.761849 ]
+    },
+    "properties": {
+    "FIELD1":8,
+    "city":"Denver",
+    "Migration":39.653713846506,
+    "wmDistance":378,
+    "Migrant2Pop":10.5,
+    "center":"39.761849,-104.880625"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.261953,42.284664 ]
+    },
+    "properties": {
+    "FIELD1":9,
+    "city":"Detroit",
+    "Migration":8.00986381570795,
+    "wmDistance":307,
+    "Migrant2Pop":2.61,
+    "center":"42.284664,-83.261953"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.393037,29.857273 ]
+    },
+    "properties": {
+    "FIELD1":10,
+    "city":"Houston",
+    "Migration":20.0897782783662,
+    "wmDistance":541,
+    "Migrant2Pop":3.71,
+    "center":"29.857273,-95.393037"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.135794,39.782976 ]
+    },
+    "properties": {
+    "FIELD1":11,
+    "city":"Indianapolis",
+    "Migration":13.3036722560798,
+    "wmDistance":285,
+    "Migrant2Pop":4.66,
+    "center":"39.782976,-86.135794"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -115.013819,36.214236 ]
+    },
+    "properties": {
+    "FIELD1":12,
+    "city":"Las Vegas",
+    "Migration":40.5224671942855,
+    "wmDistance":914,
+    "Migrant2Pop":4.43,
+    "center":"36.214236,-115.013819"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.261862,34.196398 ]
+    },
+    "properties": {
+    "FIELD1":13,
+    "city":"Los Angeles",
+    "Migration":16.4524375735887,
+    "wmDistance":760,
+    "Migrant2Pop":2.17,
+    "center":"34.196398,-118.261862"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.895397,35.183794 ]
+    },
+    "properties": {
+    "FIELD1":14,
+    "city":"Memphis",
+    "Migration":15.0321598008695,
+    "wmDistance":446,
+    "Migrant2Pop":3.37,
+    "center":"35.183794,-89.895397"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.499045,25.610494 ]
+    },
+    "properties": {
+    "FIELD1":15,
+    "city":"Miami",
+    "Migration":15.8599515814416,
+    "wmDistance":714,
+    "Migrant2Pop":2.22,
+    "center":"25.610494,-80.499045"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.78479,36.169129 ]
+    },
+    "properties": {
+    "FIELD1":16,
+    "city":"Nashville",
+    "Migration":23.3509981824239,
+    "wmDistance":332,
+    "Migrant2Pop":7.02,
+    "center":"36.169129,-86.78479"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9497764,40.6965626 ]
+    },
+    "properties": {
+    "FIELD1":17,
+    "city":"New York",
+    "Migration":36.291451527837,
+    "wmDistance":837,
+    "Migrant2Pop":4.34,
+    "center":"40.6965626,-73.9497764"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.409401,35.554611 ]
+    },
+    "properties": {
+    "FIELD1":18,
+    "city":"Oklahoma City",
+    "Migration":23.6169107443551,
+    "wmDistance":394,
+    "Migrant2Pop":5.99,
+    "center":"35.554611,-97.409401"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.133346,40.009376 ]
+    },
+    "properties": {
+    "FIELD1":19,
+    "city":"Philadelphia",
+    "Migration":12.1752476932286,
+    "wmDistance":340,
+    "Migrant2Pop":3.58,
+    "center":"40.009376,-75.133346"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.495534,33.346541 ]
+    },
+    "properties": {
+    "FIELD1":20,
+    "city":"Phoenix",
+    "Migration":38.2204683306693,
+    "wmDistance":901,
+    "Migrant2Pop":4.24,
+    "center":"33.346541,-112.495534"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.417173,45.547693 ]
+    },
+    "properties": {
+    "FIELD1":21,
+    "city":"Portland",
+    "Migration":43.3548825970169,
+    "wmDistance":633,
+    "Migrant2Pop":6.85,
+    "center":"45.547693,-122.417173"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.032229,37.727239 ]
+    },
+    "properties": {
+    "FIELD1":22,
+    "city":"San Francisco",
+    "Migration":43.6265605525902,
+    "wmDistance":732,
+    "Migrant2Pop":5.96,
+    "center":"37.727239,-123.032229"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.832375,47.493554 ]
+    },
+    "properties": {
+    "FIELD1":23,
+    "city":"Seattle",
+    "Migration":43.6078369417993,
+    "wmDistance":869,
+    "Migrant2Pop":5.02,
+    "center":"47.493554,-121.832375"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.017094,38.904149 ]
+    },
+    "properties": {
+    "FIELD1":24,
+    "city":"Washington, D.C.",
+    "Migration":40.2725831474022,
+    "wmDistance":518,
+    "Migrant2Pop":7.77,
+    "center":"38.904149,-77.017094"
+    }
+  }
+]
+}
