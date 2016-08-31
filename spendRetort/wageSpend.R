@@ -1,17 +1,36 @@
 setwd("/Users/katerabinowitz/Documents/DataLensDC/DC-Demographics/spendRetort")
 library(stringr)
 
+###tax foundation data
 spend<-read.csv("https://raw.githubusercontent.com/TaxFoundation/data/master/real-purchasing-power/current/real-purchasing-power-2013.csv")
 spend<-spend[order(spend$rpp.in.100.dollars),]
 
+
+###real personal income
+rpiSt<-read.csv("realIncomeSt.csv",stringsAsFactors=FALSE, strip.white=TRUE, skip=6,head=F)
+colnames(rpiSt)<-c("fips","name","realPersonalIncome")
+
+rpiMSA<-read.csv("realIncomeMSA.csv",stringsAsFactors=FALSE, strip.white=TRUE, skip=6,head=F)
+colnames(rpiMSA)<-c("fips","name","realPersonalIncome")
+
+rpi<-rbind(rpiSt,rpiMSA)
+rpi<-subset(rpi,nchar(rpi$fips)==5 & !grepl("(Metropolitan Portion)",rpi$name))
+
+rpi$name<-gsub(" \\(Metropolitan Statistical Area)","",rpi$name)
+
+rpiSpend<-merge(rpi,spend,by="name")
+write.csv(rpiSpend,"rpiSpend.csv")
+
+### wage v spend
+
 #wage data via http://download.bls.gov/pub/time.series/oe/
-wageArea<-read.table("oe.area.txt", sep="\t",
+wageArea<-read.table("/Users/katerabinowitz/Documents/DataLensDC Org/oe.area.txt", sep="\t",
                      row.names=NULL,header=T, stringsAsFactors=FALSE, strip.white=TRUE, encoding="latin1",
                      quote="",comment='',
                      colClasses=c("character","character","character","character","character"))[c(2,4)]
 colnames(wageArea)<-c("area","name")
 
-wage<-read.table("oe.data.0.current.txt", sep="\t",
+wage<-read.table("/Users/katerabinowitz/Documents/DataLensDC Org/oe.data.0.current.txt", sep="\t",
                  row.names=NULL,header=T, stringsAsFactors=FALSE, strip.white=TRUE)
 
 annWage<-subset(wage,str_sub(wage$series_id,-2,-1)=="08")
@@ -42,9 +61,11 @@ spend$name2<-gsub(" \\(Nonmetropolitan Portion)","",spend$name)
 wageSpend<-merge(wagePlace,spend,by="name2")
 
 wageSpend$value<-as.numeric(wageSpend$value)
-wageSpend$ratio<-wageSpend$rpp.in.100.dollars/wageSpend$value
+wageSpend$rel100<-(100/wageSpend$rpp.in.100.dollars)*100
+wageSpend$ratio<-wageSpend$rel100/wageSpend$value
 wageSpend<-wageSpend[order(wageSpend$ratio),]
 colnames(wageSpend)
 wageSpend<-wageSpend[c(2,6,12:17)]
 write.csv(wageSpend,"wageSpend.csv")
 summary(wageSpend$ratio)
+

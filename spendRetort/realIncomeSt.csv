@@ -1,0 +1,111 @@
+"RPI1 Real Personal Income 1/"
+"Real per capita personal income (chained (2009) dollars) 2/" 
+"Bureau of Economic Analysis" 
+"Metropolitan and nonmetropolitan portions"
+"GeoFips","GeoName","2014"
+"01998","Alabama (Metropolitan Portion)",40483
+"01999","Alabama (Nonmetropolitan Portion)",35595
+"02998","Alaska (Metropolitan Portion)",47105
+"02999","Alaska (Nonmetropolitan Portion)",46297
+"04998","Arizona (Metropolitan Portion)",36308
+"04999","Arizona (Nonmetropolitan Portion)",31767
+"05998","Arkansas (Metropolitan Portion)",42795
+"05999","Arkansas (Nonmetropolitan Portion)",34826
+"06998","California (Metropolitan Portion)",40837
+"06999","California (Nonmetropolitan Portion)",37664
+"08998","Colorado (Metropolitan Portion)",44221
+"08999","Colorado (Nonmetropolitan Portion)",41807
+"09998","Connecticut (Metropolitan Portion)",55016
+"09999","Connecticut (Nonmetropolitan Portion)",48343
+"10998","Delaware (Metropolitan Portion)",41788
+"10999","Delaware (Nonmetropolitan Portion)",0
+"11998","District of Columbia (Metropolitan Portion)",54173
+"11999","District of Columbia (Nonmetropolitan Portion)",0
+"12998","Florida (Metropolitan Portion)",39779
+"12999","Florida (Nonmetropolitan Portion)",32378
+"13998","Georgia (Metropolitan Portion)",40101
+"13999","Georgia (Nonmetropolitan Portion)",32737
+"15998","Hawaii (Metropolitan Portion)",36909
+"15999","Hawaii (Nonmetropolitan Portion)",33896
+"16998","Idaho (Metropolitan Portion)",36214
+"16999","Idaho (Nonmetropolitan Portion)",36193
+"17998","Illinois (Metropolitan Portion)",43792
+"17999","Illinois (Nonmetropolitan Portion)",40499
+"18998","Indiana (Metropolitan Portion)",40146
+"18999","Indiana (Nonmetropolitan Portion)",39092
+"19998","Iowa (Metropolitan Portion)",44877
+"19999","Iowa (Nonmetropolitan Portion)",46987
+"20998","Kansas (Metropolitan Portion)",46571
+"20999","Kansas (Nonmetropolitan Portion)",43351
+"21998","Kentucky (Metropolitan Portion)",42049
+"21999","Kentucky (Nonmetropolitan Portion)",34109
+"22998","Louisiana (Metropolitan Portion)",43046
+"22999","Louisiana (Nonmetropolitan Portion)",38010
+"23998","Maine (Metropolitan Portion)",40412
+"23999","Maine (Nonmetropolitan Portion)",36214
+"24998","Maryland (Metropolitan Portion)",44823
+"24999","Maryland (Nonmetropolitan Portion)",48164
+"25998","Massachusetts (Metropolitan Portion)",50309
+"25999","Massachusetts (Nonmetropolitan Portion)",49770
+"26998","Michigan (Metropolitan Portion)",40646
+"26999","Michigan (Nonmetropolitan Portion)",36148
+"27998","Minnesota (Metropolitan Portion)",46844
+"27999","Minnesota (Nonmetropolitan Portion)",43517
+"28998","Mississippi (Metropolitan Portion)",37921
+"28999","Mississippi (Nonmetropolitan Portion)",35365
+"29998","Missouri (Metropolitan Portion)",44865
+"29999","Missouri (Nonmetropolitan Portion)",36715
+"30998","Montana (Metropolitan Portion)",39223
+"30999","Montana (Nonmetropolitan Portion)",39042
+"31998","Nebraska (Metropolitan Portion)",46669
+"31999","Nebraska (Nonmetropolitan Portion)",51160
+"32998","Nevada (Metropolitan Portion)",38070
+"32999","Nevada (Nonmetropolitan Portion)",40236
+"33998","New Hampshire (Metropolitan Portion)",47062
+"33999","New Hampshire (Nonmetropolitan Portion)",44552
+"34998","New Jersey (Metropolitan Portion)",46098
+"34999","New Jersey (Nonmetropolitan Portion)",0
+"35998","New Mexico (Metropolitan Portion)",35376
+"35999","New Mexico (Nonmetropolitan Portion)",37824
+"36998","New York (Metropolitan Portion)",44564
+"36999","New York (Nonmetropolitan Portion)",36042
+"37998","North Carolina (Metropolitan Portion)",40480
+"37999","North Carolina (Nonmetropolitan Portion)",35314
+"38998","North Dakota (Metropolitan Portion)",49257
+"38999","North Dakota (Nonmetropolitan Portion)",63061
+"39998","Ohio (Metropolitan Portion)",44716
+"39999","Ohio (Nonmetropolitan Portion)",38710
+"40998","Oklahoma (Metropolitan Portion)",46852
+"40999","Oklahoma (Nonmetropolitan Portion)",39968
+"41998","Oregon (Metropolitan Portion)",38889
+"41999","Oregon (Nonmetropolitan Portion)",35453
+"42998","Pennsylvania (Metropolitan Portion)",45510
+"42999","Pennsylvania (Nonmetropolitan Portion)",37131
+"44998","Rhode Island (Metropolitan Portion)",44943
+"44999","Rhode Island (Nonmetropolitan Portion)",0
+"45998","South Carolina (Metropolitan Portion)",37970
+"45999","South Carolina (Nonmetropolitan Portion)",33812
+"46998","South Dakota (Metropolitan Portion)",47363
+"46999","South Dakota (Nonmetropolitan Portion)",47259
+"47998","Tennessee (Metropolitan Portion)",43104
+"47999","Tennessee (Nonmetropolitan Portion)",34835
+"48998","Texas (Metropolitan Portion)",43782
+"48999","Texas (Nonmetropolitan Portion)",39594
+"49998","Utah (Metropolitan Portion)",35166
+"49999","Utah (Nonmetropolitan Portion)",39811
+"50998","Vermont (Metropolitan Portion)",43815
+"50999","Vermont (Nonmetropolitan Portion)",41587
+"51998","Virginia (Metropolitan Portion)",45959
+"51999","Virginia (Nonmetropolitan Portion)",35624
+"53998","Washington (Metropolitan Portion)",44639
+"53999","Washington (Nonmetropolitan Portion)",37220
+"54998","West Virginia (Metropolitan Portion)",39059
+"54999","West Virginia (Nonmetropolitan Portion)",34983
+"55998","Wisconsin (Metropolitan Portion)",44216
+"55999","Wisconsin (Nonmetropolitan Portion)",41550
+"56998","Wyoming (Metropolitan Portion)",50504
+"56999","Wyoming (Nonmetropolitan Portion)",53137
+"Legend / Footnotes:"
+"1/ Real personal income for states and metropolitan areas is personal income divided by the RPPs and the national PCE price index. The result is a chained dollar (using 2009 as the base year) estimate of real personal income."
+"2/ Real per capita personal income is total real personal income divided by total midyear population."
+"Last updated:  July 7, 2016-- new estimates for 2014; revised estimates for 2008-2013."

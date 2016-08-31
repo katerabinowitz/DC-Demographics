@@ -1,0 +1,391 @@
+"RPI1 Real Personal Income 1/"
+"Real per capita personal income (chained (2009) dollars) 2/" 
+"Bureau of Economic Analysis" 
+"Metropolitan Statistical Area"
+"GeoFips","GeoName","2014"
+"00999","United States (Nonmetropolitan Portion)",38595
+"10180","Abilene, TX (Metropolitan Statistical Area)",40372
+"10420","Akron, OH (Metropolitan Statistical Area)",45007
+"10500","Albany, GA (Metropolitan Statistical Area)",36923
+"10540","Albany, OR (Metropolitan Statistical Area)",33537
+"10580","Albany-Schenectady-Troy, NY (Metropolitan Statistical Area)",46255
+"10740","Albuquerque, NM (Metropolitan Statistical Area)",35354
+"10780","Alexandria, LA (Metropolitan Statistical Area)",39992
+"10900","Allentown-Bethlehem-Easton, PA-NJ (Metropolitan Statistical Area)",41446
+"11020","Altoona, PA (Metropolitan Statistical Area)",39217
+"11100","Amarillo, TX (Metropolitan Statistical Area)",41016
+"11180","Ames, IA (Metropolitan Statistical Area)",38764
+"11260","Anchorage, AK (Metropolitan Statistical Area)",47970
+"11460","Ann Arbor, MI (Metropolitan Statistical Area)",43652
+"11500","Anniston-Oxford-Jacksonville, AL (Metropolitan Statistical Area)",35616
+"11540","Appleton, WI (Metropolitan Statistical Area)",43477
+"11700","Asheville, NC (Metropolitan Statistical Area)",36027
+"12020","Athens-Clarke County, GA (Metropolitan Statistical Area)",33419
+"12060","Atlanta-Sandy Springs-Roswell, GA (Metropolitan Statistical Area)",41833
+"12100","Atlantic City-Hammonton, NJ (Metropolitan Statistical Area)",37263
+"12220","Auburn-Opelika, AL (Metropolitan Statistical Area)",35468
+"12260","Augusta-Richmond County, GA-SC (Metropolitan Statistical Area)",37230
+"12420","Austin-Round Rock, TX (Metropolitan Statistical Area)",43715
+"12540","Bakersfield, CA (Metropolitan Statistical Area)",34022
+"12580","Baltimore-Columbia-Towson, MD (Metropolitan Statistical Area)",45765
+"12620","Bangor, ME (Metropolitan Statistical Area)",34450
+"12700","Barnstable Town, MA (Metropolitan Statistical Area)",54088
+"12940","Baton Rouge, LA (Metropolitan Statistical Area)",41693
+"12980","Battle Creek, MI (Metropolitan Statistical Area)",35231
+"13020","Bay City, MI (Metropolitan Statistical Area)",37150
+"13140","Beaumont-Port Arthur, TX (Metropolitan Statistical Area)",40500
+"13220","Beckley, WV (Metropolitan Statistical Area)",39316
+"13380","Bellingham, WA (Metropolitan Statistical Area)",37556
+"13460","Bend-Redmond, OR (Metropolitan Statistical Area)",40012
+"13740","Billings, MT (Metropolitan Statistical Area)",40148
+"13780","Binghamton, NY (Metropolitan Statistical Area)",36877
+"13820","Birmingham-Hoover, AL (Metropolitan Statistical Area)",45311
+"13900","Bismarck, ND (Metropolitan Statistical Area)",49146
+"13980","Blacksburg-Christiansburg-Radford, VA (Metropolitan Statistical Area)",34038
+"14010","Bloomington, IL (Metropolitan Statistical Area)",42106
+"14020","Bloomington, IN (Metropolitan Statistical Area)",32647
+"14100","Bloomsburg-Berwick, PA (Metropolitan Statistical Area)",39759
+"14260","Boise City, ID (Metropolitan Statistical Area)",36750
+"14460","Boston-Cambridge-Newton, MA-NH (Metropolitan Statistical Area)",53632
+"14500","Boulder, CO (Metropolitan Statistical Area)",49440
+"14540","Bowling Green, KY (Metropolitan Statistical Area)",36020
+"14740","Bremerton-Silverdale, WA (Metropolitan Statistical Area)",40812
+"14860","Bridgeport-Stamford-Norwalk, CT (Metropolitan Statistical Area)",75426
+"15180","Brownsville-Harlingen, TX (Metropolitan Statistical Area)",27290
+"15260","Brunswick, GA (Metropolitan Statistical Area)",36574
+"15380","Buffalo-Cheektowaga-Niagara Falls, NY (Metropolitan Statistical Area)",42864
+"15500","Burlington, NC (Metropolitan Statistical Area)",35407
+"15540","Burlington-South Burlington, VT (Metropolitan Statistical Area)",44343
+"15680","California-Lexington Park, MD (Metropolitan Statistical Area)",47065
+"15940","Canton-Massillon, OH (Metropolitan Statistical Area)",41274
+"15980","Cape Coral-Fort Myers, FL (Metropolitan Statistical Area)",40875
+"16020","Cape Girardeau, MO-IL (Metropolitan Statistical Area)",41340
+"16060","Carbondale-Marion, IL (Metropolitan Statistical Area)",39422
+"16180","Carson City, NV (Metropolitan Statistical Area)",39401
+"16220","Casper, WY (Metropolitan Statistical Area)",56274
+"16300","Cedar Rapids, IA (Metropolitan Statistical Area)",47097
+"16540","Chambersburg-Waynesboro, PA (Metropolitan Statistical Area)",39095
+"16580","Champaign-Urbana, IL (Metropolitan Statistical Area)",38650
+"16620","Charleston, WV (Metropolitan Statistical Area)",43475
+"16700","Charleston-North Charleston, SC (Metropolitan Statistical Area)",39477
+"16740","Charlotte-Concord-Gastonia, NC-SC (Metropolitan Statistical Area)",41724
+"16820","Charlottesville, VA (Metropolitan Statistical Area)",47962
+"16860","Chattanooga, TN-GA (Metropolitan Statistical Area)",39890
+"16940","Cheyenne, WY (Metropolitan Statistical Area)",46391
+"16980","Chicago-Naperville-Elgin, IL-IN-WI (Metropolitan Statistical Area)",43998
+"17020","Chico, CA (Metropolitan Statistical Area)",34041
+"17140","Cincinnati, OH-KY-IN (Metropolitan Statistical Area)",47005
+"17300","Clarksville, TN-KY (Metropolitan Statistical Area)",38545
+"17420","Cleveland, TN (Metropolitan Statistical Area)",42060
+"17460","Cleveland-Elyria, OH (Metropolitan Statistical Area)",48497
+"17660","Coeur d'Alene, ID (Metropolitan Statistical Area)",36321
+"17780","College Station-Bryan, TX (Metropolitan Statistical Area)",33374
+"17820","Colorado Springs, CO (Metropolitan Statistical Area)",38752
+"17860","Columbia, MO (Metropolitan Statistical Area)",40986
+"17900","Columbia, SC (Metropolitan Statistical Area)",38534
+"17980","Columbus, GA-AL (Metropolitan Statistical Area)",37723
+"18020","Columbus, IN (Metropolitan Statistical Area)",46307
+"18140","Columbus, OH (Metropolitan Statistical Area)",44230
+"18580","Corpus Christi, TX (Metropolitan Statistical Area)",41309
+"18700","Corvallis, OR (Metropolitan Statistical Area)",37051
+"18880","Crestview-Fort Walton Beach-Destin, FL (Metropolitan Statistical Area)",43405
+"19060","Cumberland, MD-WV (Metropolitan Statistical Area)",37321
+"19100","Dallas-Fort Worth-Arlington, TX (Metropolitan Statistical Area)",45385
+"19140","Dalton, GA (Metropolitan Statistical Area)",33631
+"19180","Danville, IL (Metropolitan Statistical Area)",39746
+"19300","Daphne-Fairhope-Foley, AL (Metropolitan Statistical Area)",38910
+"19340","Davenport-Moline-Rock Island, IA-IL (Metropolitan Statistical Area)",43971
+"19380","Dayton, OH (Metropolitan Statistical Area)",41916
+"19460","Decatur, AL (Metropolitan Statistical Area)",36375
+"19500","Decatur, IL (Metropolitan Statistical Area)",44881
+"19660","Deltona-Daytona Beach-Ormond Beach, FL (Metropolitan Statistical Area)",34796
+"19740","Denver-Aurora-Lakewood, CO (Metropolitan Statistical Area)",47446
+"19780","Des Moines-West Des Moines, IA (Metropolitan Statistical Area)",47344
+"19820","Detroit-Warren-Dearborn, MI (Metropolitan Statistical Area)",42109
+"20020","Dothan, AL (Metropolitan Statistical Area)",38857
+"20100","Dover, DE (Metropolitan Statistical Area)",37229
+"20220","Dubuque, IA (Metropolitan Statistical Area)",42747
+"20260","Duluth, MN-WI (Metropolitan Statistical Area)",40322
+"20500","Durham-Chapel Hill, NC (Metropolitan Statistical Area)",44255
+"20700","East Stroudsburg, PA (Metropolitan Statistical Area)",33798
+"20740","Eau Claire, WI (Metropolitan Statistical Area)",42050
+"20940","El Centro, CA (Metropolitan Statistical Area)",32999
+"21060","Elizabethtown-Fort Knox, KY (Metropolitan Statistical Area)",39544
+"21140","Elkhart-Goshen, IN (Metropolitan Statistical Area)",37771
+"21300","Elmira, NY (Metropolitan Statistical Area)",37801
+"21340","El Paso, TX (Metropolitan Statistical Area)",32443
+"21500","Erie, PA (Metropolitan Statistical Area)",37993
+"21660","Eugene, OR (Metropolitan Statistical Area)",35039
+"21780","Evansville, IN-KY (Metropolitan Statistical Area)",41322
+"21820","Fairbanks, AK (Metropolitan Statistical Area)",45043
+"22020","Fargo, ND-MN (Metropolitan Statistical Area)",48150
+"22140","Farmington, NM (Metropolitan Statistical Area)",36567
+"22180","Fayetteville, NC (Metropolitan Statistical Area)",36616
+"22220","Fayetteville-Springdale-Rogers, AR-MO (Metropolitan Statistical Area)",51755
+"22380","Flagstaff, AZ (Metropolitan Statistical Area)",36863
+"22420","Flint, MI (Metropolitan Statistical Area)",34592
+"22500","Florence, SC (Metropolitan Statistical Area)",37677
+"22520","Florence-Muscle Shoals, AL (Metropolitan Statistical Area)",37286
+"22540","Fond du Lac, WI (Metropolitan Statistical Area)",44729
+"22660","Fort Collins, CO (Metropolitan Statistical Area)",39557
+"22900","Fort Smith, AR-OK (Metropolitan Statistical Area)",36177
+"23060","Fort Wayne, IN (Metropolitan Statistical Area)",40047
+"23420","Fresno, CA (Metropolitan Statistical Area)",33861
+"23460","Gadsden, AL (Metropolitan Statistical Area)",36177
+"23540","Gainesville, FL (Metropolitan Statistical Area)",37176
+"23580","Gainesville, GA (Metropolitan Statistical Area)",36714
+"23900","Gettysburg, PA (Metropolitan Statistical Area)",41174
+"24020","Glens Falls, NY (Metropolitan Statistical Area)",38686
+"24140","Goldsboro, NC (Metropolitan Statistical Area)",36767
+"24220","Grand Forks, ND-MN (Metropolitan Statistical Area)",42687
+"24260","Grand Island, NE (Metropolitan Statistical Area)",43891
+"24300","Grand Junction, CO (Metropolitan Statistical Area)",37130
+"24340","Grand Rapids-Wyoming, MI (Metropolitan Statistical Area)",42352
+"24420","Grants Pass, OR (Metropolitan Statistical Area)",32990
+"24500","Great Falls, MT (Metropolitan Statistical Area)",40404
+"24540","Greeley, CO (Metropolitan Statistical Area)",35976
+"24580","Green Bay, WI (Metropolitan Statistical Area)",44786
+"24660","Greensboro-High Point, NC (Metropolitan Statistical Area)",38515
+"24780","Greenville, NC (Metropolitan Statistical Area)",36642
+"24860","Greenville-Anderson-Mauldin, SC (Metropolitan Statistical Area)",38069
+"25060","Gulfport-Biloxi-Pascagoula, MS (Metropolitan Statistical Area)",35363
+"25180","Hagerstown-Martinsburg, MD-WV (Metropolitan Statistical Area)",34458
+"25220","Hammond, LA (Metropolitan Statistical Area)",36872
+"25260","Hanford-Corcoran, CA (Metropolitan Statistical Area)",32102
+"25420","Harrisburg-Carlisle, PA (Metropolitan Statistical Area)",44137
+"25500","Harrisonburg, VA (Metropolitan Statistical Area)",33950
+"25540","Hartford-West Hartford-East Hartford, CT (Metropolitan Statistical Area)",51271
+"25620","Hattiesburg, MS (Metropolitan Statistical Area)",35834
+"25860","Hickory-Lenoir-Morganton, NC (Metropolitan Statistical Area)",35002
+"25940","Hilton Head Island-Bluffton-Beaufort, SC (Metropolitan Statistical Area)",42331
+"25980","Hinesville, GA (Metropolitan Statistical Area)",30496
+"26140","Homosassa Springs, FL (Metropolitan Statistical Area)",35539
+"26300","Hot Springs, AR (Metropolitan Statistical Area)",39137
+"26380","Houma-Thibodaux, LA (Metropolitan Statistical Area)",48714
+"26420","Houston-The Woodlands-Sugar Land, TX (Metropolitan Statistical Area)",50288
+"26580","Huntington-Ashland, WV-KY-OH (Metropolitan Statistical Area)",37391
+"26620","Huntsville, AL (Metropolitan Statistical Area)",43684
+"26820","Idaho Falls, ID (Metropolitan Statistical Area)",38117
+"26900","Indianapolis-Carmel-Anderson, IN (Metropolitan Statistical Area)",43348
+"26980","Iowa City, IA (Metropolitan Statistical Area)",43492
+"27060","Ithaca, NY (Metropolitan Statistical Area)",33170
+"27100","Jackson, MI (Metropolitan Statistical Area)",35050
+"27140","Jackson, MS (Metropolitan Statistical Area)",41933
+"27180","Jackson, TN (Metropolitan Statistical Area)",40249
+"27260","Jacksonville, FL (Metropolitan Statistical Area)",41610
+"27340","Jacksonville, NC (Metropolitan Statistical Area)",43511
+"27500","Janesville-Beloit, WI (Metropolitan Statistical Area)",38514
+"27620","Jefferson City, MO (Metropolitan Statistical Area)",43066
+"27740","Johnson City, TN (Metropolitan Statistical Area)",36108
+"27780","Johnstown, PA (Metropolitan Statistical Area)",40379
+"27860","Jonesboro, AR (Metropolitan Statistical Area)",37060
+"27900","Joplin, MO (Metropolitan Statistical Area)",35946
+"27980","Kahului-Wailuku-Lahaina, HI (Metropolitan Statistical Area)",34188
+"28020","Kalamazoo-Portage, MI (Metropolitan Statistical Area)",39375
+"28100","Kankakee, IL (Metropolitan Statistical Area)",33132
+"28140","Kansas City, MO-KS (Metropolitan Statistical Area)",45613
+"28420","Kennewick-Richland, WA (Metropolitan Statistical Area)",35486
+"28660","Killeen-Temple, TX (Metropolitan Statistical Area)",38766
+"28700","Kingsport-Bristol-Bristol, TN-VA (Metropolitan Statistical Area)",38199
+"28740","Kingston, NY (Metropolitan Statistical Area)",37164
+"28940","Knoxville, TN (Metropolitan Statistical Area)",40208
+"29020","Kokomo, IN (Metropolitan Statistical Area)",37724
+"29100","La Crosse-Onalaska, WI-MN (Metropolitan Statistical Area)",42080
+"29180","Lafayette, LA (Metropolitan Statistical Area)",46530
+"29200","Lafayette-West Lafayette, IN (Metropolitan Statistical Area)",33558
+"29340","Lake Charles, LA (Metropolitan Statistical Area)",41346
+"29420","Lake Havasu City-Kingman, AZ (Metropolitan Statistical Area)",27239
+"29460","Lakeland-Winter Haven, FL (Metropolitan Statistical Area)",32201
+"29540","Lancaster, PA (Metropolitan Statistical Area)",38995
+"29620","Lansing-East Lansing, MI (Metropolitan Statistical Area)",35916
+"29700","Laredo, TX (Metropolitan Statistical Area)",29405
+"29740","Las Cruces, NM (Metropolitan Statistical Area)",30312
+"29820","Las Vegas-Henderson-Paradise, NV (Metropolitan Statistical Area)",36858
+"29940","Lawrence, KS (Metropolitan Statistical Area)",35792
+"30020","Lawton, OK (Metropolitan Statistical Area)",37723
+"30140","Lebanon, PA (Metropolitan Statistical Area)",39791
+"30300","Lewiston, ID-WA (Metropolitan Statistical Area)",38603
+"30340","Lewiston-Auburn, ME (Metropolitan Statistical Area)",35274
+"30460","Lexington-Fayette, KY (Metropolitan Statistical Area)",42069
+"30620","Lima, OH (Metropolitan Statistical Area)",37140
+"30700","Lincoln, NE (Metropolitan Statistical Area)",42979
+"30780","Little Rock-North Little Rock-Conway, AR (Metropolitan Statistical Area)",41512
+"30860","Logan, UT-ID (Metropolitan Statistical Area)",31064
+"30980","Longview, TX (Metropolitan Statistical Area)",43794
+"31020","Longview, WA (Metropolitan Statistical Area)",37519
+"31080","Los Angeles-Long Beach-Anaheim, CA (Metropolitan Statistical Area)",39927
+"31140","Louisville/Jefferson County, KY-IN (Metropolitan Statistical Area)",43287
+"31180","Lubbock, TX (Metropolitan Statistical Area)",36847
+"31340","Lynchburg, VA (Metropolitan Statistical Area)",36756
+"31420","Macon, GA (Metropolitan Statistical Area)",38164
+"31460","Madera, CA (Metropolitan Statistical Area)",31423
+"31540","Madison, WI (Metropolitan Statistical Area)",47021
+"31700","Manchester-Nashua, NH (Metropolitan Statistical Area)",47118
+"31740","Manhattan, KS (Metropolitan Statistical Area)",38333
+"31860","Mankato-North Mankato, MN (Metropolitan Statistical Area)",42640
+"31900","Mansfield, OH (Metropolitan Statistical Area)",36108
+"32580","McAllen-Edinburg-Mission, TX (Metropolitan Statistical Area)",25521
+"32780","Medford, OR (Metropolitan Statistical Area)",35285
+"32820","Memphis, TN-MS-AR (Metropolitan Statistical Area)",41989
+"32900","Merced, CA (Metropolitan Statistical Area)",32635
+"33100","Miami-Fort Lauderdale-West Palm Beach, FL (Metropolitan Statistical Area)",41916
+"33140","Michigan City-La Porte, IN (Metropolitan Statistical Area)",38455
+"33220","Midland, MI (Metropolitan Statistical Area)",45945
+"33260","Midland, TX (Metropolitan Statistical Area)",87929
+"33340","Milwaukee-Waukesha-West Allis, WI (Metropolitan Statistical Area)",46691
+"33460","Minneapolis-St. Paul-Bloomington, MN-WI (Metropolitan Statistical Area)",47700
+"33540","Missoula, MT (Metropolitan Statistical Area)",36897
+"33660","Mobile, AL (Metropolitan Statistical Area)",36399
+"33700","Modesto, CA (Metropolitan Statistical Area)",33889
+"33740","Monroe, LA (Metropolitan Statistical Area)",38852
+"33780","Monroe, MI (Metropolitan Statistical Area)",37904
+"33860","Montgomery, AL (Metropolitan Statistical Area)",40222
+"34060","Morgantown, WV (Metropolitan Statistical Area)",40028
+"34100","Morristown, TN (Metropolitan Statistical Area)",35491
+"34580","Mount Vernon-Anacortes, WA (Metropolitan Statistical Area)",40509
+"34620","Muncie, IN (Metropolitan Statistical Area)",32781
+"34740","Muskegon, MI (Metropolitan Statistical Area)",34101
+"34820","Myrtle Beach-Conway-North Myrtle Beach, SC-NC (Metropolitan Statistical Area)",33243
+"34900","Napa, CA (Metropolitan Statistical Area)",42252
+"34940","Naples-Immokalee-Marco Island, FL (Metropolitan Statistical Area)",68228
+"34980","Nashville-Davidson--Murfreesboro--Franklin, TN (Metropolitan Statistical Area)",46460
+"35100","New Bern, NC (Metropolitan Statistical Area)",41447
+"35300","New Haven-Milford, CT (Metropolitan Statistical Area)",40960
+"35380","New Orleans-Metairie, LA (Metropolitan Statistical Area)",44376
+"35620","New York-Newark-Jersey City, NY-NJ-PA (Metropolitan Statistical Area)",46249
+"35660","Niles-Benton Harbor, MI (Metropolitan Statistical Area)",41380
+"35840","North Port-Sarasota-Bradenton, FL (Metropolitan Statistical Area)",44694
+"35980","Norwich-New London, CT (Metropolitan Statistical Area)",46012
+"36100","Ocala, FL (Metropolitan Statistical Area)",33026
+"36140","Ocean City, NJ (Metropolitan Statistical Area)",44463
+"36220","Odessa, TX (Metropolitan Statistical Area)",44859
+"36260","Ogden-Clearfield, UT (Metropolitan Statistical Area)",35349
+"36420","Oklahoma City, OK (Metropolitan Statistical Area)",46466
+"36500","Olympia-Tumwater, WA (Metropolitan Statistical Area)",37555
+"36540","Omaha-Council Bluffs, NE-IA (Metropolitan Statistical Area)",47759
+"36740","Orlando-Kissimmee-Sanford, FL (Metropolitan Statistical Area)",34915
+"36780","Oshkosh-Neenah, WI (Metropolitan Statistical Area)",40617
+"36980","Owensboro, KY (Metropolitan Statistical Area)",41220
+"37100","Oxnard-Thousand Oaks-Ventura, CA (Metropolitan Statistical Area)",40458
+"37340","Palm Bay-Melbourne-Titusville, FL (Metropolitan Statistical Area)",37568
+"37460","Panama City, FL (Metropolitan Statistical Area)",36459
+"37620","Parkersburg-Vienna, WV (Metropolitan Statistical Area)",39217
+"37860","Pensacola-Ferry Pass-Brent, FL (Metropolitan Statistical Area)",36405
+"37900","Peoria, IL (Metropolitan Statistical Area)",43974
+"37980","Philadelphia-Camden-Wilmington, PA-NJ-DE-MD (Metropolitan Statistical Area)",47160
+"38060","Phoenix-Mesa-Scottsdale, AZ (Metropolitan Statistical Area)",37538
+"38220","Pine Bluff, AR (Metropolitan Statistical Area)",33691
+"38300","Pittsburgh, PA (Metropolitan Statistical Area)",47880
+"38340","Pittsfield, MA (Metropolitan Statistical Area)",45772
+"38540","Pocatello, ID (Metropolitan Statistical Area)",32896
+"38860","Portland-South Portland, ME (Metropolitan Statistical Area)",42667
+"38900","Portland-Vancouver-Hillsboro, OR-WA (Metropolitan Statistical Area)",41604
+"38940","Port St. Lucie, FL (Metropolitan Statistical Area)",43197
+"39140","Prescott, AZ (Metropolitan Statistical Area)",31608
+"39300","Providence-Warwick, RI-MA (Metropolitan Statistical Area)",43809
+"39340","Provo-Orem, UT (Metropolitan Statistical Area)",30478
+"39380","Pueblo, CO (Metropolitan Statistical Area)",33573
+"39460","Punta Gorda, FL (Metropolitan Statistical Area)",35283
+"39540","Racine, WI (Metropolitan Statistical Area)",40535
+"39580","Raleigh, NC (Metropolitan Statistical Area)",44773
+"39660","Rapid City, SD (Metropolitan Statistical Area)",42182
+"39740","Reading, PA (Metropolitan Statistical Area)",41089
+"39820","Redding, CA (Metropolitan Statistical Area)",35521
+"39900","Reno, NV (Metropolitan Statistical Area)",42823
+"40060","Richmond, VA (Metropolitan Statistical Area)",45057
+"40140","Riverside-San Bernardino-Ontario, CA (Metropolitan Statistical Area)",28911
+"40220","Roanoke, VA (Metropolitan Statistical Area)",41676
+"40340","Rochester, MN (Metropolitan Statistical Area)",45785
+"40380","Rochester, NY (Metropolitan Statistical Area)",41416
+"40420","Rockford, IL (Metropolitan Statistical Area)",38520
+"40580","Rocky Mount, NC (Metropolitan Statistical Area)",37904
+"40660","Rome, GA (Metropolitan Statistical Area)",38432
+"40900","Sacramento--Roseville--Arden-Arcade, CA (Metropolitan Statistical Area)",42076
+"40980","Saginaw, MI (Metropolitan Statistical Area)",34988
+"41060","St. Cloud, MN (Metropolitan Statistical Area)",39762
+"41100","St. George, UT (Metropolitan Statistical Area)",29086
+"41140","St. Joseph, MO-KS (Metropolitan Statistical Area)",36909
+"41180","St. Louis, MO-IL (Metropolitan Statistical Area)",48204
+"41420","Salem, OR (Metropolitan Statistical Area)",34113
+"41500","Salinas, CA (Metropolitan Statistical Area)",39310
+"41540","Salisbury, MD-DE (Metropolitan Statistical Area)",41838
+"41620","Salt Lake City, UT (Metropolitan Statistical Area)",38726
+"41660","San Angelo, TX (Metropolitan Statistical Area)",41717
+"41700","San Antonio-New Braunfels, TX (Metropolitan Statistical Area)",40317
+"41740","San Diego-Carlsbad, CA (Metropolitan Statistical Area)",40851
+"41860","San Francisco-Oakland-Hayward, CA (Metropolitan Statistical Area)",54893
+"41940","San Jose-Sunnyvale-Santa Clara, CA (Metropolitan Statistical Area)",55325
+"42020","San Luis Obispo-Paso Robles-Arroyo Grande, CA (Metropolitan Statistical Area)",39509
+"42100","Santa Cruz-Watsonville, CA (Metropolitan Statistical Area)",39499
+"42140","Santa Fe, NM (Metropolitan Statistical Area)",44555
+"42200","Santa Maria-Santa Barbara, CA (Metropolitan Statistical Area)",42729
+"42220","Santa Rosa, CA (Metropolitan Statistical Area)",38252
+"42340","Savannah, GA (Metropolitan Statistical Area)",39612
+"42540","Scranton--Wilkes-Barre--Hazleton, PA (Metropolitan Statistical Area)",40266
+"42660","Seattle-Tacoma-Bellevue, WA (Metropolitan Statistical Area)",49689
+"42680","Sebastian-Vero Beach, FL (Metropolitan Statistical Area)",63906
+"42700","Sebring, FL (Metropolitan Statistical Area)",33227
+"43100","Sheboygan, WI (Metropolitan Statistical Area)",46517
+"43300","Sherman-Denison, TX (Metropolitan Statistical Area)",37317
+"43340","Shreveport-Bossier City, LA (Metropolitan Statistical Area)",42298
+"43420","Sierra Vista-Douglas, AZ (Metropolitan Statistical Area)",37273
+"43580","Sioux City, IA-NE-SD (Metropolitan Statistical Area)",45675
+"43620","Sioux Falls, SD (Metropolitan Statistical Area)",48169
+"43780","South Bend-Mishawaka, IN-MI (Metropolitan Statistical Area)",40723
+"43900","Spartanburg, SC (Metropolitan Statistical Area)",37623
+"44060","Spokane-Spokane Valley, WA (Metropolitan Statistical Area)",37000
+"44100","Springfield, IL (Metropolitan Statistical Area)",42060
+"44140","Springfield, MA (Metropolitan Statistical Area)",41058
+"44180","Springfield, MO (Metropolitan Statistical Area)",37365
+"44220","Springfield, OH (Metropolitan Statistical Area)",38024
+"44300","State College, PA (Metropolitan Statistical Area)",35914
+"44420","Staunton-Waynesboro, VA (Metropolitan Statistical Area)",39962
+"44700","Stockton-Lodi, CA (Metropolitan Statistical Area)",33117
+"44940","Sumter, SC (Metropolitan Statistical Area)",37902
+"45060","Syracuse, NY (Metropolitan Statistical Area)",40245
+"45220","Tallahassee, FL (Metropolitan Statistical Area)",35460
+"45300","Tampa-St. Petersburg-Clearwater, FL (Metropolitan Statistical Area)",37961
+"45460","Terre Haute, IN (Metropolitan Statistical Area)",35189
+"45500","Texarkana, TX-AR (Metropolitan Statistical Area)",35893
+"45540","The Villages, FL (Metropolitan Statistical Area)",38339
+"45780","Toledo, OH (Metropolitan Statistical Area)",41732
+"45820","Topeka, KS (Metropolitan Statistical Area)",41734
+"45940","Trenton, NJ (Metropolitan Statistical Area)",48985
+"46060","Tucson, AZ (Metropolitan Statistical Area)",35078
+"46140","Tulsa, OK (Metropolitan Statistical Area)",50195
+"46220","Tuscaloosa, AL (Metropolitan Statistical Area)",36457
+"46340","Tyler, TX (Metropolitan Statistical Area)",42344
+"46520","Urban Honolulu, HI (Metropolitan Statistical Area)",37048
+"46540","Utica-Rome, NY (Metropolitan Statistical Area)",37530
+"46660","Valdosta, GA (Metropolitan Statistical Area)",35813
+"46700","Vallejo-Fairfield, CA (Metropolitan Statistical Area)",33544
+"47020","Victoria, TX (Metropolitan Statistical Area)",46042
+"47220","Vineland-Bridgeton, NJ (Metropolitan Statistical Area)",31937
+"47260","Virginia Beach-Norfolk-Newport News, VA-NC (Metropolitan Statistical Area)",42358
+"47300","Visalia-Porterville, CA (Metropolitan Statistical Area)",33998
+"47380","Waco, TX (Metropolitan Statistical Area)",35546
+"47460","Walla Walla, WA (Metropolitan Statistical Area)",39563
+"47580","Warner Robins, GA (Metropolitan Statistical Area)",38049
+"47900","Washington-Arlington-Alexandria, DC-VA-MD-WV (Metropolitan Statistical Area)",48539
+"47940","Waterloo-Cedar Falls, IA (Metropolitan Statistical Area)",41577
+"48060","Watertown-Fort Drum, NY (Metropolitan Statistical Area)",40689
+"48140","Wausau, WI (Metropolitan Statistical Area)",43039
+"48260","Weirton-Steubenville, WV-OH (Metropolitan Statistical Area)",37127
+"48300","Wenatchee, WA (Metropolitan Statistical Area)",38240
+"48540","Wheeling, WV-OH (Metropolitan Statistical Area)",42911
+"48620","Wichita, KS (Metropolitan Statistical Area)",45807
+"48660","Wichita Falls, TX (Metropolitan Statistical Area)",42391
+"48700","Williamsport, PA (Metropolitan Statistical Area)",39106
+"48900","Wilmington, NC (Metropolitan Statistical Area)",37133
+"49020","Winchester, VA-WV (Metropolitan Statistical Area)",40776
+"49180","Winston-Salem, NC (Metropolitan Statistical Area)",39329
+"49340","Worcester, MA-CT (Metropolitan Statistical Area)",41813
+"49420","Yakima, WA (Metropolitan Statistical Area)",36467
+"49620","York-Hanover, PA (Metropolitan Statistical Area)",41213
+"49660","Youngstown-Warren-Boardman, OH-PA (Metropolitan Statistical Area)",38531
+"49700","Yuba City, CA (Metropolitan Statistical Area)",34724
+"49740","Yuma, AZ (Metropolitan Statistical Area)",28342
+"Legend / Footnotes:"
+"1/ Real personal income for states and metropolitan areas is personal income divided by the RPPs and the national PCE price index. The result is a chained dollar (using 2009 as the base year) estimate of real personal income."
+"2/ Real per capita personal income is total real personal income divided by total midyear population."
+"Last updated:  July 7, 2016-- new estimates for 2014; revised estimates for 2008-2013."
