@@ -19,7 +19,10 @@ rpi<-subset(rpi,nchar(rpi$fips)==5 & !grepl("(Metropolitan Portion)",rpi$name))
 rpi$name<-gsub(" \\(Metropolitan Statistical Area)","",rpi$name)
 
 rpiSpend<-merge(rpi,spend,by="name")
+rpiSpend<-rpiSpend[order(-rpiSpend$realPersonalIncome),]
 write.csv(rpiSpend,"rpiSpend.csv")
+
+summary(rpiSpend$realPersonalIncome)
 
 ### wage v spend
 
