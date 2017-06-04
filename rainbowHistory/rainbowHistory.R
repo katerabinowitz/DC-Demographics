@@ -1,5 +1,6 @@
 require(dplyr)
 require(ggmap)
+require(rgdal)
 
 rbHistory <- read.csv("Rainbow History Project Places and Spaces.csv", stringsAsFactors = FALSE)
 
@@ -57,3 +58,6 @@ dcRainbowHistory <- rbind(dcRBpre60, dcRB60, dcRB70, dcRB80, dcRB90, dcRB0010)
 
 write.csv(dcRainbowHistory, "dcRBGeo.csv", row.names = FALSE)
 
+dcRainbowHistory.SP  <- SpatialPointsDataFrame(rbHistory[,c(14,13)], rbHistory[,-c(14,13)])
+
+writeOGR(dcRainbowHistory.SP, '/Users/katerabinowitz/Documents/DataLensDC/DC-Demographics/rainbowHistory/dcRH.geojson','dcRH', driver='GeoJSON', check_exists = FALSE)
