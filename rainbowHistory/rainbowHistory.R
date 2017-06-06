@@ -1,13 +1,16 @@
 require(dplyr)
 require(ggmap)
 require(rgdal)
-
 setwd('/Users/katerabinowitz/Documents/DataLensDC/DC-Demographics/rainbowHistory')
 
 rbHistory <- read.csv("Rainbow History Project Places and Spaces.csv", stringsAsFactors = FALSE)
 
-dcRB <- rbHistory %>% filter(grepl("Washington DC", Address) & (!grepl("MD|Arlington|VA|1801 H St SE|Alexandria|Various locations|Silver Spring", Address))) %>%
-  
+
+dcRB <- rbHistory %>% 
+                      # filter down to DC locations
+                      filter(grepl("Washington DC", Address) & (!grepl("MD|Arlington|VA|1801 H St SE|Alexandria|Various locations|Silver Spring",
+                                                                Address))) %>%
+                      # extract clean open and close years, addresses
                       mutate(yrOpen = ifelse(substr(Date.Opened, 1, 2) == "18" | substr(Date.Opened, 1, 2) == "17", Date.Opened,
                                               ifelse(grepl("\\?",Date.Opened), substr(Date.Opened, nchar(Date.Opened)-5, nchar(Date.Opened) -4),
                                                  ifelse(grepl("s",Date.Opened), substr(Date.Opened, nchar(Date.Opened)-2, nchar(Date.Opened) -1),
@@ -19,9 +22,12 @@ dcRB <- rbHistory %>% filter(grepl("Washington DC", Address) & (!grepl("MD|Arlin
                                                   substr(Date.Closed, nchar(Date.Closed)-1, nchar(Date.Closed))))),
  
                                  Address = gsub("th \\&", "00", Address), 
+                             
+                                # adjust bars on O St SE to O St SW since address no longer exists
                                  Address = ifelse(Name == "Circus", "1823 L St NW Washington DC", 
-                                                  ifelse(Address=="19th St & Dupont Circle NW Washington DC", "21 Dupont Circle NW Washington DC", 
-                                                         Address))) %>%
+                                                  ifelse(Address=="19th St & Dupont Circle NW Washington DC", "21 Dupont Circle NW Washington DC",
+                                                    ifelse(Name == "Velvet Nation", "1015 Half St SE Washington DC",
+                                                           gsub("O St SE", "O St SW", Address))))) %>%
   
                         filter(yrOpen != "" | yrClose != "") %>%
                         mutate(decadeOpen = ifelse(substr(Date.Opened, 1, 2) == "18" | substr(Date.Opened, 1, 2) == "17", 
@@ -47,32 +53,35 @@ dcRB <- rbHistory %>% filter(grepl("Washington DC", Address) & (!grepl("MD|Arlin
                                                    grepl("book|Book|coffee|Coffee|cinema|collective|Collective", Notes),
                                                  "Community Site", Group),
                                 
-                                  singleOut = ifelse(grepl("Nob Hill", Name),"nobHill", 
+                                #flag individual locations for highlight on map  
+                                singleOut = ifelse(grepl("Nob Hill", Name),"nobHill", 
                                               ifelse(grepl("Uptown|Gayety Buffet", Name), "mpdRaid", 
-                                                ifelse(grepl("Plus One|Jo-Anna's|Guild Press|Phase1", Name), "BarracksRow", 
-                                                  ifelse(grepl("Washington Free Clinic", Name), "clinicFirst", 
-                                                    ifelse(grepl("Curiosity Book|Mark I|Community Bookshop|Lambda Rising|Village Books|Lammas", Name), "books", 
-                                                      ifelse(grepl("Pier Nine", Name), "SW", 
-                                                        ifelse(grepl("Furies|GLF", Name), "collective", 
-                                                          ifelse(grepl("Whitman|VD", Name), "clinics", 
-                                                            ifelse(grepl("Church", Name), "church",
-                                                              ifelse(grepl("JR's", Name), "highHeelDrag", 
-                                                                ifelse(grepl("Equus", Name), "marineAttack", 
-                                                                  ifelse(grepl("Margaret|Quaker House|Nob Hill|Cheers", Name), "aids", 
-                                                                      ifelse(grepl("Green Lantern|Cobalt|9:30|Black Cat", Name), "dec90",
-                                                                             ""))))))))))))))
+                                                ifelse(grepl("Plus One", Name), "plusOne",
+                                                  ifelse(grepl("Jo-Anna's", Name), "joAnna",
+                                                    ifelse(grepl("Guild Press", Name), "guildPress",
+                                                      ifelse(grepl("Washington Free Clinic", Name), "clinicFirst", 
+                                                        ifelse(grepl("Village Books", Name), "villageBooks", 
+                                                          ifelse(grepl("Lambda Rising", Name), "lambdaBooks",
+                                                            ifelse(grepl("Lammas", Name), "lammasBooks",
+                                                              ifelse(grepl("GLF", Name), "glf", 
+                                                                ifelse(grepl("Furies", Name), "furies",
+                                                                  ifelse(grepl("Pier Nine", Name), "pier9",
+                                                                    ifelse(grepl("JR's", Name), "highHeelDrag", 
+                                                                      ifelse(grepl("Equus", Name), "equus",
+                                                                        ifelse(grepl("Cheers", Name), "cheers", 
+                                                                          ifelse(grepl("Margaret", Name), "margaret",
+                                                                            ifelse(grepl("Quaker House", Name), "quaker",
+                                                                              ifelse(grepl("Georgetown Lutheran", Name), "gtown",
+                                                                                ifelse(grepl("Green Lantern|Cobalt", Name), "greenCobalt",
+                                                                                  ifelse(grepl("9:30", Name), "club930", 
+                                                                                    ifelse(grepl("Black Cat", Name), "blackCat",
+                                                                                    ifelse(grepl("Phase 1", Name), "phase1",
+                                                                                           ifelse(grepl("Nellie", Name), "nellie",
+                                                                             ""))))))))))))))))))))))))
 
 LatLong <- geocode(dcRB$Address, source="google")
 
 dcRBGeo <- cbind(dcRB, LatLong)
-
-ll <- dcRBGeo %>% filter(is.na(lon)) %>% select(-lon, -lat)
-
-llOut <- dcRBGeo %>% filter(!(is.na(lon)))
-ll2 <- geocode(ll$Address, source="google")
-ll2Out <- cbind(ll, ll2)
-
-dcRBGeo <- rbind(ll2Out, llOut)
 
 dcRBpre60 <- dcRBGeo %>% filter(pre1960==1) %>% mutate(decade = "pre1960") %>% select(-pre1960, -dec1960, -dec1970, -dec1980, -dec1990, -dec200010)
 dcRB60 <- dcRBGeo %>% filter(dec1960==1) %>% mutate(decade = "1960") %>% select(-pre1960, -dec1960, -dec1970, -dec1980, -dec1990, -dec200010)
@@ -82,6 +91,8 @@ dcRB90 <- dcRBGeo %>% filter(dec1990==1) %>% mutate(decade = "1990") %>% select(
 dcRB0010 <- dcRBGeo %>% filter(dec200010==1) %>% mutate(decade = "2000-Present") %>% select(-pre1960, -dec1960, -dec1970, -dec1980, -dec1990, -dec200010)
 
 dcRainbowHistory <- rbind(dcRBpre60, dcRB60, dcRB70, dcRB80, dcRB90, dcRB0010)
+Encoding(dcRainbowHistory$Name)<-"UTF-8"
+Encoding(dcRainbowHistory$Notes)<-"UTF-8"
 
 write.csv(dcRainbowHistory, "dcRBGeo.csv", row.names = FALSE)
 
